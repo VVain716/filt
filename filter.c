@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
     if (argc != optind + 2)
     {
-        printf("Usage: ./filter [flag] infile outfile\n");
+        printf("Usage: filter [flag] infile outfile\n");
         return 3;
     }
 
