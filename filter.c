@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
         printf("Only one filter allowed.\n");
         return 0;
     }
-
     if (argc != optind + 2)
     {
         printf("Usage: filter [flag] infile outfile\n");
