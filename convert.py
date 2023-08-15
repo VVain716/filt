@@ -5,7 +5,7 @@ import os
 flags = ['-g', '-s', '-r', '-b']
 extensions = ['jpeg', 'jpg', 'png', 'bmp']
 def main():
-    usage = """usage = python3 convert.py [flag] infile outfile"""
+    usage = """usage: filter [flag] infile outfile"""
 
     if len(sys.argv) != 4:
         print(usage)
